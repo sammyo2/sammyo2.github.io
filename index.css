@@ -262,7 +262,7 @@ body,html {
     font-weight:bold;
 }
 #footer a {
-    font-size:18px;
+    font-size:8px;
     background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
     -webkit-background-clip:text;
     background-clip:text;
