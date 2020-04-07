@@ -52,7 +52,7 @@ body,html {
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
-    font-family: 'Major', cursive;
+    font-family: 'Roboto', cursive;
     color: fuchsia;
 }
 #links {
