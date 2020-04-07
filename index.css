@@ -72,7 +72,7 @@ body,html {
 }
 #middle {
     width:100%;
-    height:80vh;
+    height:auto;
     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://i.imgur.com/RnxBlNZ.jpg") center center fixed;
     background-size:100% auto;
     background-repeat:no-repeat;
@@ -261,7 +261,7 @@ body,html {
     font-weight: lighter;
 }
 #footer a {
-    font-size:7px;
+    font-size:9px;
     background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
     -webkit-background-clip:text;
     background-clip:text;
