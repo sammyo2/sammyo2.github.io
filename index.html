@@ -118,8 +118,16 @@
              </div>
          
               <div id="contact">
-                 <h1>contact.</h1> 
-                 <form>
+                 <h1>contact.</h1>
+                  
+                  <script language=”JavaScript”>
+                      var frmvalidator = new Validator(“contactform”); 
+                      frmvalidator.addValidation(“name”,”req”,”Please provide your name”); 
+                      frmvalidator.addValidation(“email”,”req”,”Please provide your email”); 
+                      frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); 
+                  </script>
+                  
+                 <form method="post" action="contact.php">
                      <input type="text" placeholder="name" required>
                      <input type="email" placeholder="email" required><br>
                      <textarea placeholder="your message" required rows="5"></textarea><br>
