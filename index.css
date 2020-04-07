@@ -102,7 +102,7 @@ body,html {
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Major Mono Display', cursive;
 }
 #skills {
     margin:4vh 0px !important;
