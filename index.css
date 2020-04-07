@@ -74,8 +74,6 @@ body,html {
     width:100%;
     height:auto;
     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://i.imgur.com/RnxBlNZ.jpg") center center fixed;
-    background-image: -webkit-image-set(url(https://i.imgur.com/6q93ckU.jpg) 1x, url(https://i.imgur.com/RnxBlNZ.jpg) 2x, );
-    background-image: image-set(url(https://i.imgur.com/6q93ckU.jpg) 1x, url(https://i.imgur.com/RnxBlNZ.jpg) 2x, );
     background-size:100% auto;
     background-repeat:no-repeat;
     color:white;
