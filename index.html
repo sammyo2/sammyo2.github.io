@@ -127,11 +127,11 @@
                       frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); 
                   </script>
                   
-                 <form method="post" action="contact.php">
+                 <form method="post">
                      <input type="text" placeholder="name" required>
                      <input type="email" placeholder="email" required><br>
                      <textarea placeholder="your message" required rows="5"></textarea><br>
-                     <button class="btn_one">send</button>
+                     <button class="btn_one" onclick="window.location.href = 'mailto:sammy.n.otoo@gmail.com';">send</button>
                  </form> 
                  <div id="details">
                     <a class="btn_social" href="https://github.com/sammyo2"><i class="fab fa-github"></i></a>
