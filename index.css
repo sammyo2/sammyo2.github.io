@@ -52,7 +52,7 @@ body,html {
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Major Mono Display', cursive;
     color: fuchsia;
 }
 #links {
@@ -259,10 +259,10 @@ body,html {
     width:100%;
     padding:10vh 0px;
     text-align:center;
-    font-weight:bold;
+    font-weight: lighter;
 }
 #footer a {
-    font-size:8px;
+    font-size:7px;
     background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
     -webkit-background-clip:text;
     background-clip:text;
