@@ -137,6 +137,14 @@ body,html {
     
 }
 
+#so2logo {
+    width: em;
+    height: 5em;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+}
+
 #tagline {
     font-size:50px;
     width:60%;
