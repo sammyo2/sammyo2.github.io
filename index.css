@@ -306,6 +306,10 @@ body,html {
         width:90%;
         font-size:30px;
     }
+    #update {
+        width:90%;
+        font-size:17px;
+    }
     .btn_one {
         font-size:14px;
         padding:8px 20px;
