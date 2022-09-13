@@ -65,3 +65,17 @@ function closework(){
         $("#work_container").css("display","none");
     },800);
 }
+function showwork2(){
+    $("#work2_container").css("display","inherit");
+    $("#work2_container").addClass("animated slideInLeft");
+    setTimeout(function(){
+        $("#work2_container").removeClass("animated slideInLeft");
+    },800);
+}
+function closework2(){
+    $("#work2_container").addClass("animated slideOutLeft");
+    setTimeout(function(){
+        $("#work2_container").removeClass("animated slideOutLeft");
+        $("#work2_container").css("display","none");
+    },800);
+}
