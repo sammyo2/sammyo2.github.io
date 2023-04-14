@@ -79,3 +79,17 @@ function closework2(){
         $("#work2_container").css("display","none");
     },800);
 }
+function showwork3(){
+    $("#work3_container").css("display","inherit");
+    $("#work3_container").addClass("animated slideInRight");
+    setTimeout(function(){
+        $("#work3_container").removeClass("animated slideInRight");
+    },800);
+}
+function closework3(){
+    $("#work3_container").addClass("animated slideOutRight");
+    setTimeout(function(){
+        $("#work3_container").removeClass("animated slideOutRight");
+        $("#work3_container").css("display","none");
+    },800);
+}

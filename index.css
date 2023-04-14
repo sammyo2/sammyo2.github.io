@@ -172,12 +172,30 @@ body,html {
     padding:2vh 0px !important;
 }
 
+#featured_projects {
+    margin:4vh 0px !important;
+    padding:2vh 0px !important;
+}
+
 #programming_languages {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
 }
 
+#tools{
+    margin:4vh 0px !important;
+    padding:2vh 0px !important;
+}
+
 #skills {
+    margin:4vh 0px !important;
+    padding:2vh 0px !important;
+}
+#design_skills {
+    margin:4vh 0px !important;
+    padding:2vh 0px !important;
+}
+#programming_skills {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
 }
