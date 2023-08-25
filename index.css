@@ -68,6 +68,7 @@ body,html {
     padding:5px 8px;
     border-bottom:2px solid transparent;
 }
+
 #links a:hover {
     border-bottom:2px solid #fff;
 }
@@ -202,6 +203,60 @@ body,html {
 #work {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
+}
+#projecttitle {
+    background-image: linear-gradient(to right, #EAC952 0%, #F20F0F 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500% !important;
+    /*text-decoration: underline;*/
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    -o-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+}
+#projectdate {
+    display: inline;
+    background-image: linear-gradient(to left, #EAC952 0%, #F20F0F 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500% !important;
+    /*text-decoration: underline;*/
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 30s ease infinite;
+    -o-animation: Gradient 30s ease infinite;
+    animation: Gradient 30s ease infinite;
+    
+}
+/*
+h2 + h4 {
+    display: inline;
+}
+*/
+h2 {
+    display: inline;
+}
+#sponsorlink {
+    background-image: linear-gradient(to right, #00FAFA 0%, #008C8C 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500% !important;
+    /*text-decoration: underline;*/
+    -webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    -o-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
+}
+#intextlink {
+    background-image: linear-gradient(to right, #00FAFA 0%, #008C8C 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500% !important;
+    /*text-decoration: underline;*/
+    -webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    -o-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
 }
 #contact {
     margin:4vh 0px !important;
