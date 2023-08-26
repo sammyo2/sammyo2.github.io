@@ -247,6 +247,28 @@ h2 {
     -o-animation: Gradient 5s ease infinite;
     animation: Gradient 5s ease infinite;
 }
+#sponsorlink:hover {
+    background-image: linear-gradient(to right, #00FAFA 0%, #C8FFFF 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500% !important;
+    /*text-decoration: underline;*/
+    -webkit-animation: Gradient 2s ease infinite;
+    -moz-animation: Gradient 2s ease infinite;
+    -o-animation: Gradient 2s ease infinite;
+    animation: Gradient 2s ease infinite;
+}
+#sponsorlink:active {
+    background-image: linear-gradient(to right, #004646 0%, #008C8C 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500% !important;
+    /*text-decoration: underline;*/
+    -webkit-animation: Gradient 2s ease infinite;
+    -moz-animation: Gradient 2s ease infinite;
+    -o-animation: Gradient 2s ease infinite;
+    animation: Gradient 2s ease infinite;
+}
 #intextlink {
     background-image: linear-gradient(to right, #00FAFA 0%, #008C8C 100%);
     -webkit-background-clip:text;
@@ -318,6 +340,11 @@ h2 {
     background:white;
     cursor:pointer;
     color:#000;
+}
+.btn_one:disabled {
+    background:gray;
+    cursor: pointer;
+    color: #000;
 }
 .project div {
     font-weight:normal;
