@@ -236,7 +236,7 @@ h2 + h4 {
 h2 {
     display: inline;
 }
-#sponsorlink {
+#corporatelink {
     background-image: linear-gradient(to right, #00FAFA 0%, #008C8C 100%);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -247,7 +247,7 @@ h2 {
     -o-animation: Gradient 5s ease infinite;
     animation: Gradient 5s ease infinite;
 }
-#sponsorlink:hover {
+#corporatelink:hover {
     background-image: linear-gradient(to right, #00FAFA 0%, #C8FFFF 100%);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -258,7 +258,7 @@ h2 {
     -o-animation: Gradient 2s ease infinite;
     animation: Gradient 2s ease infinite;
 }
-#sponsorlink:active {
+#corporatelink:active {
     background-image: linear-gradient(to right, #004646 0%, #008C8C 100%);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
